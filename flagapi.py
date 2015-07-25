@@ -1,5 +1,6 @@
 from flask import Flask, render_template, abort, request, jsonify, g
 import sqlite3	
+import rpy2.robjects as robjects
 
 app = Flask(__name__)
 DATABASE = 'CountryCodes'

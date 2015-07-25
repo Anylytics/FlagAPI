@@ -7,7 +7,7 @@ define([ 'ractive', 'rv!../ractive/template'], function ( Ractive, html) {
       el: 'ractiveDiv',
       template: html,
       data: {
-        greeting: "Hello, World"
+        greeting: "Hello, World Nitin"
       }
     });
 
